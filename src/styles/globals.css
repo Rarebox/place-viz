@@ -24,3 +24,45 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html, body, #__next {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.mapboxgl-map {
+  height: 100%;
+}
+
+/* globals.css */
+
+.sidebar {
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1rem 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar strong {
+  color: #333;
+}
